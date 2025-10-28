@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
   "manifestVersion": "1.13",
-  "version": "1.0.0",
-  "id": "oneflowef-app",
+  "version": "1.0.2",
+  "id": "3b7dca51-7a44-4d9a-8b2f-6a80ef98b3c7",
   "packageName": "com.flowef.one",
   "developer": {
-    "name": "Flowef",
+    "name": "FlowefV2",
     "websiteUrl": "https://one.flowef.com",
     "privacyUrl": "https://one.flowef.com/privacy",
     "termsOfUseUrl": "https://one.flowef.com/terms"
@@ -15,8 +15,8 @@
     "full": "One FLOW"
   },
   "description": {
-    "short": "Acesse o Flowef diretamente",
-    "full": "Abre o portal One FLOW automaticamente no navegador padrão."
+    "short": "Acesse o portal Flowef diretamente no Microsoft Teams.",
+    "full": "O One FLOW permite acessar o portal Flowef diretamente dentro do Microsoft Teams, sem abrir o navegador."
   },
   "accentColor": "#5C2D91",
   "icons": {
@@ -27,11 +27,11 @@
     {
       "entityId": "oneflowef-tab",
       "name": "One FLOW",
-      "contentUrl": "https://SEU_DOMINIO/redirect.html",
+      "contentUrl": "https://one.flowef.com/",
       "websiteUrl": "https://one.flowef.com/",
       "scopes": ["personal"]
     }
   ],
   "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["one.flowef.com", "SEU_DOMINIO"]
+  "validDomains": ["one.flowef.com"]
 }
