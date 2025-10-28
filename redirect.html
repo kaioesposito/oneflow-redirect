@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>One FLOW</title>
+  <script>
+    // Função para abrir fora do Teams
+    window.onload = function() {
+      const url = "https://one.flowef.com/";
+      try {
+        // Tenta abrir no navegador padrão
+        window.open(url, "_blank");
+      } catch (e) {
+        console.error("Erro ao abrir a página:", e);
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #1b1b1b;
+      color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <h2>Abrindo o One FLOW...</h2>
+</body>
+</html>
